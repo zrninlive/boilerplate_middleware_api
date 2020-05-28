@@ -4,10 +4,9 @@ import applicationInfo from './config/core';
 const options = {
   definition: {
     info: {
-      title: `🐎  ${applicationInfo.name}`,
+      title: ` ${applicationInfo.name}`,
       version: applicationInfo.version,
-      description:
-        'API criada para ser um middleware entre aplicações da ABQM e aplicações desenvolvidas pela iClouds',
+      description: applicationInfo.description,
     },
   },
   apis: ['src/routes/*.js'],
